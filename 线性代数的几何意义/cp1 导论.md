@@ -25,7 +25,19 @@ $$
 
 两个二元线性函数组可视为二维向量到二维向量的线性映射:
 $$
-\{ \begin{array}  { l  }  { z = k_1 x + k_2 y } \\ { t = k_3  x + k_4 y } \end{array} => \left( \begin{array}  { l  }  { z } \\ { t } \end{array} \right) = \left[ \begin{array}  { l  }  { k_1 \   k_2 } \\ { k_3\ k_4 } \end{array} \right]\left( \begin{array}  { l  }  { x } \\ { y } \end{array} \right)
+\left\{\begin{array}{l}
+z=k_{1} x+k_{2} y \\
+t=k_{3} x+k_{4} y
+\end{array} \Rightarrow>\left(\begin{array}{l}
+z \\
+t
+\end{array}\right)=\left[\begin{array}{ll}
+k_{1} & k_{2} \\
+k_{3} & k_{4}
+\end{array}\right]\left(\begin{array}{l}
+x \\
+y
+\end{array}\right)\right.
 $$
 
 
@@ -33,8 +45,23 @@ $m$个$n$元线性函数组所确定的$m×n$ 矩阵确定了一个$n$ 维空间
 $$
 y = f(x) = Kx
 $$
-其中，
+其中
 $$
-y = f(x) = \left( \begin{array}  { l  }  { y_1 } \\ { ... } \\{y_m} \end{array} \right) \\
-K = \left[ \begin{array}  { l  }  { k_{11} \  \  k_{12} \  \ k_{1n} } \\ {...} \ \ \ {...} \ \ \ {...} \\{ k_{m1}\ \ k_{m2}\  \ k_{mn} } \end{array} \right] \\ x = \left( \begin{array}  { l  }  { x_1 } \\ { ... } \\{x_n} \end{array} \right)
+\begin{gathered}
+y=f(x)=\left(\begin{array}{c}
+y_{1} \\
+\ldots \\
+y_{m}
+\end{array}\right) \\
+K=\left[\begin{array}{ccc}
+k_{11} & k_{12} & k_{1 n} \\
+\ldots & \ldots & \ldots \\
+k_{m 1} & k_{m 2} & k_{m n}
+\end{array}\right] \\
+x=\left(\begin{array}{c}
+x_{1} \\
+\ldots \\
+x_{n}
+\end{array}\right)
+\end{gathered}
 $$
