@@ -13,10 +13,9 @@
 线性空间：定义了加法和数乘的向量空间；
 
 线性映射：从线性空间$S_{in}$ 到线性空间$S_{out}$ 的映射 $f$，若满足可加性和比例性：
-$$
-f(a_1 + a_2) = f(a_1) + f(a_2) \\
-f(ka) = kf(a)
-$$
+
+![image-20210925163559665](https://cdn.jsdelivr.net/gh/NAMZseng/Picture/img/image-20210925163559665.png)
+
 则称$f$为线性映射。
 
 例如，若映射$f（x） = kx + b$ 由于$f（x_1） + f(x_2) = kx_1 + kx_2 + 2b ≠ f(x_1+x_2)$ ，故其不能算线性映射。
@@ -24,44 +23,17 @@ $$
 二元函数：$z = f(x, y)$ 可视为二维平面向量$(x, y)$ 到一维向量$z$ 的线性映射。
 
 两个二元线性函数组可视为二维向量到二维向量的线性映射:
-$$
-\left\{\begin{array}{l}
-z=k_{1} x+k_{2} y \\
-t=k_{3} x+k_{4} y
-\end{array} \Rightarrow\left(\begin{array}{l}
-z \\
-t
-\end{array}\right)=\left[\begin{array}{ll}
-k_{1} & k_{2} \\
-k_{3} & k_{4}
-\end{array}\right]\left(\begin{array}{l}
-x \\
-y
-\end{array}\right)\right.
-$$
+
+![image-20210925163706268](https://cdn.jsdelivr.net/gh/NAMZseng/Picture/img/image-20210925163706268.png)
 
 
 $m$个$n$元线性函数组所确定的$m×n$ 矩阵确定了一个$n$ 维空间向量到$m$维空间向量的线性映射。
-$$
-y = f(x) = Kx
-$$
+
+![image-20210925163838748](https://cdn.jsdelivr.net/gh/NAMZseng/Picture/img/image-20210925163838748.png)
+
 其中
-$$
-\begin{gathered}
-y=f(x)=\left(\begin{array}{c}
-y_{1} \\
-\ldots \\
-y_{m}
-\end{array}\right) \\
-K=\left[\begin{array}{ccc}
-k_{11} & k_{12} & k_{1 n} \\
-\ldots & \ldots & \ldots \\
-k_{m 1} & k_{m 2} & k_{m n}
-\end{array}\right] \\
-x=\left(\begin{array}{c}
-x_{1} \\
-\ldots \\
-x_{n}
-\end{array}\right)
-\end{gathered}
-$$
+
+![image-20210925163745926](https://cdn.jsdelivr.net/gh/NAMZseng/Picture/img/image-20210925163745926.png)
+
+
+
