@@ -27,6 +27,8 @@ $$
 $$
 \{ \begin{array}  { l  }  { z = k_1 x + k_2 y } \\ { t = k_3  x + k_4 y } \end{array} => \left( \begin{array}  { l  }  { z } \\ { t } \end{array} \right) = \left[ \begin{array}  { l  }  { k_1 \   k_2 } \\ { k_3\ k_4 } \end{array} \right]\left( \begin{array}  { l  }  { x } \\ { y } \end{array} \right)
 $$
+
+
 $m$个$n$元线性函数组所确定的$m×n$ 矩阵确定了一个$n$ 维空间向量到$m$维空间向量的线性映射。
 $$
 y = f(x) = Kx
