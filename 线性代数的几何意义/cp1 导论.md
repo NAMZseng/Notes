@@ -28,7 +28,7 @@ $$
 \left\{\begin{array}{l}
 z=k_{1} x+k_{2} y \\
 t=k_{3} x+k_{4} y
-\end{array} \Rightarrow>\left(\begin{array}{l}
+\end{array} \Rightarrow\left(\begin{array}{l}
 z \\
 t
 \end{array}\right)=\left[\begin{array}{ll}
